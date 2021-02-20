@@ -10,15 +10,15 @@
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="文章目录 01.什么是Maven? 02.Maven能解决什么问题？ 03.Maven项目构建 04.Maven核心概念 05.Maven软件的安装和配置 06.Maven的核心概念  Maven工程约定的目录结构 POM Maven的常用命令 插件   07.IDEA中配置Maven  用模板创建maven的JavaSE项目 用模板创建maven的Web项目    01.什么是Maven?Mav">
+  <meta name="description" content="01.什么是Maven?Maven是一个快速构建工具。 Maven 翻译为”专家”、“内行”，是 Apache 下的一个纯 Java 开发的开源项目。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。 Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理。 Maven 也可被用于构建和管理各种项目，例如 C#，Ruby，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="zyh">
 <meta property="og:url" content="https://programmer-zeng.github.io/2021/02/20/Maven%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8&%E5%9C%A8IDEA%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="zyh">
-<meta property="og:description" content="文章目录 01.什么是Maven? 02.Maven能解决什么问题？ 03.Maven项目构建 04.Maven核心概念 05.Maven软件的安装和配置 06.Maven的核心概念  Maven工程约定的目录结构 POM Maven的常用命令 插件   07.IDEA中配置Maven  用模板创建maven的JavaSE项目 用模板创建maven的Web项目    01.什么是Maven?Mav">
+<meta property="og:description" content="01.什么是Maven?Maven是一个快速构建工具。 Maven 翻译为”专家”、“内行”，是 Apache 下的一个纯 Java 开发的开源项目。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。 Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理。 Maven 也可被用于构建和管理各种项目，例如 C#，Ruby，">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-02-20T02:00:39.490Z">
-<meta property="article:modified_time" content="2020-12-29T13:33:46.178Z">
+<meta property="article:modified_time" content="2021-02-20T02:10:03.591Z">
 <meta property="article:author" content="zyh">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -228,31 +228,12 @@
     
   <div class="article-entry" itemprop="articleBody">
     
-    <h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#01Maven_6">01.什么是Maven?</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#02Maven_15">02.Maven能解决什么问题？</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#03Maven_50">03.Maven项目构建</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#04Maven_76">04.Maven核心概念</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#05Maven_97">05.Maven软件的安装和配置</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#06Maven_117">06.Maven的核心概念</a></li>
-<li><ul>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#Maven_118">Maven工程约定的目录结构</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#POM_172">POM</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#Maven_209">Maven的常用命令</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#_288">插件</a></li>
-</ul>
-</li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#07IDEAMaven_320">07.IDEA中配置Maven</a></li>
-<li><ul>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#mavenJavaSE_354">用模板创建maven的JavaSE项目</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jiahuan_/article/details/109906543#mavenWeb_362">用模板创建maven的Web项目</a></li>
-</ul>
-</li>
-</ul>
-<h1 id="01-什么是Maven"><a href="#01-什么是Maven" class="headerlink" title="01.什么是Maven?"></a>01.什么是Maven?</h1><p><strong>Maven是一个快速构建工具。</strong></p>
+    <h1 id="01-什么是Maven"><a href="#01-什么是Maven" class="headerlink" title="01.什么是Maven?"></a>01.什么是Maven?</h1><p><strong>Maven是一个快速构建工具。</strong></p>
 <p>Maven 翻译为”专家”、“内行”，是 Apache 下的一个纯 Java 开发的开源项目。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。</p>
 <p>Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理。</p>
 <p>Maven 也可被用于构建和管理各种项目，例如 C#，Ruby，Scala 和其他语言编写的项目。Maven 曾是 Jakarta 项目的子项目，现为由 Apache 软件基金会主持的独立 Apache 项目。</p>
+<a id="more"></a>
+
 <h1 id="02-Maven能解决什么问题？"><a href="#02-Maven能解决什么问题？" class="headerlink" title="02.Maven能解决什么问题？"></a>02.Maven能解决什么问题？</h1><p><strong>传统开发项目存在的问题：</strong></p>
 <p>传统开发项目的问题，没有使用maven 【maven】管理的项目很多模块，模块之间有关系，手工管理关系，比较繁琐。</p>
 <p>2）需要很多第三方功能，需要很多jar文件，需要手工从网络中获取各中jar</p>
@@ -477,16 +458,6 @@
   </div>
 </article>
 
-
-<nav id="article-nav">
-  
-  
-    <a href="/2021/02/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
 
 
 <aside class="wrap-side-operation">
