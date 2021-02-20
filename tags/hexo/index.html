@@ -47,7 +47,7 @@
 
   
     <script src="/lib/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flat-top.css" rel="stylesheet">
   
 
 </head>
@@ -728,7 +728,12 @@ setInterval("createtime()",250);
 
   <!-- 樱花特效 -->
   {% if theme.sakura.enable %}
-      <script async src="fairyDustCursor.js"></script>
+      <script async src="/fairyDustCursor.js"></script>
+  {% endif %}
+
+  <!--彩带2.自动飘动-->
+  {% if theme.ribbon %}
+      <script async src="plugins/ribbon.js"></script>
   {% endif %}
 
 </body>
