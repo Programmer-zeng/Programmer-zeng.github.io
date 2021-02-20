@@ -6,22 +6,30 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://programmer-zeng.github.io">
-  <title>zyh</title>
+  <title>Aplayer搭配Metingjs音乐插件的使用 | zyh</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-    
-    <!-- <meta name="keywords" content="java">
-    <meta name="description" content=""> -->
-  
-  <meta property="og:type" content="website">
-<meta property="og:title" content="zyh">
-<meta property="og:url" content="https://programmer-zeng.github.io/index.html">
+  <meta name="description" content="Aplayer搭配MetingJS音乐插件的使用1. Aplayer和MetingJ的介绍Aplayer官网文档：https:&#x2F;&#x2F;aplayer.js.org&#x2F;#&#x2F; Metingjs官网文档：https:&#x2F;&#x2F;github.com&#x2F;metowolf&#x2F;MetingJS Aplayer是一个功能强大的HTML5音乐播放器，Metingjs基于Aplayer插件封装好的插件，开箱即用。 2. Meting">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Aplayer搭配Metingjs音乐插件的使用">
+<meta property="og:url" content="https://programmer-zeng.github.io/2021/02/20/Aplayer%E6%90%AD%E9%85%8DMetingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="zyh">
+<meta property="og:description" content="Aplayer搭配MetingJS音乐插件的使用1. Aplayer和MetingJ的介绍Aplayer官网文档：https:&#x2F;&#x2F;aplayer.js.org&#x2F;#&#x2F; Metingjs官网文档：https:&#x2F;&#x2F;github.com&#x2F;metowolf&#x2F;MetingJS Aplayer是一个功能强大的HTML5音乐播放器，Metingjs基于Aplayer插件封装好的插件，开箱即用。 2. Meting">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331205904082.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331220657468.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331220906531.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331221038481.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331221140202.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331221514752.png">
+<meta property="og:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331221837659.png">
+<meta property="article:published_time" content="2021-02-20T06:47:48.000Z">
+<meta property="article:modified_time" content="2021-02-20T06:49:51.224Z">
 <meta property="article:author" content="zyh">
-<meta property="article:tag" content="java">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://newbetome.gitee.io/newbenote/01Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/Aplayer&&Metingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/photo/image-20200331205904082.png">
   
     <link rel="alternative" href="/atom.xml" title="zyh" type="application/atom+xml">
   
@@ -231,25 +239,25 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-
-  
-    <article id="post-Aplayer搭配Metingjs音乐插件的使用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-Aplayer搭配Metingjs音乐插件的使用" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/02/20/Aplayer%E6%90%AD%E9%85%8DMetingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/" target="_blank">Aplayer搭配Metingjs音乐插件的使用</a>
-  
+    <h1 class="article-title" itemprop="name">
+      Aplayer搭配Metingjs音乐插件的使用
     </h1>
   
 
 
   
   
+        
+        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
+
 <a href="/2021/02/20/Aplayer%E6%90%AD%E9%85%8DMetingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/" class="archive-article-date">
         <time datetime="2021-02-20T06:47:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-20</time>
 </a>
@@ -257,6 +265,27 @@
   
   
     
+<div style="margin-top:10px;">
+  <span class="post-time">
+    <span class="post-meta-item-icon">
+      <!-- fonts.scss -->
+      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
+      <i class="icon-statistics"></i>
+      <span class="post-meta-item-text"> 字数统计:</span>
+      <span class="post-count">1.5k字</span>
+    </span>
+  </span>
+
+  <span class="post-time">
+    &nbsp; | &nbsp;
+    <span class="post-meta-item-icon">
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text"> 阅读时长≈</span>
+      <span class="post-count">7分</span>
+    </span>
+  </span>
+</div>
+
 
   
   </header>
@@ -523,7 +552,59 @@
     
 
     
+    <div class="page-reward">
+      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
+        <div class="tooltip tooltip-east">
+          <span class="tooltip-item">
+            赏
+          </span>
+          <span class="tooltip-content">
+            <span class="tooltip-text">
+              <span class="tooltip-inner">
+                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
+                    class="icon icon-quo-right"></i></p>
+                <div class="reward-box">
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/img/alipay.jpg">
+                    <span class="reward-type">支付宝</span>
+                  </div>
+                  
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/img/weixin.png">
+                    <span class="reward-type">微信</span>
+                  </div>
+                  
+                </div>
+              </span>
+            </span>
+          </span>
+        </div>
+      </a>
+    </div>
+    
 
+    
+    <div class="declare"> 
+      <ul class="post-copyright">
+        <li>
+          <strong>本文作者：</strong>
+          zyh
+        </li>
+        <li>
+          <strong>本文链接：</strong>
+          <a href="https://programmer-zeng.github.io/2021/02/20/Aplayer搭配Metingjs音乐插件的使用/" title="Aplayer搭配Metingjs音乐插件的使用" target="_blank">https://programmer-zeng.github.io/2021/02/20/Aplayer搭配Metingjs音乐插件的使用/</a>
+        </li>
+        
+        <li>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，均采用 <a href="https://github.com/JoeyBling/hexo-theme-yilia-plus/blob/master/LICENSE" rel="external nofollow" target="_blank">MIT</a> 许可协议。转载请注明出处！
+        </li>
+        
+      </ul>
+    </div>
     
 
   </div>
@@ -544,16 +625,76 @@
     
 
     
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/02/20/Aplayer%E6%90%AD%E9%85%8DMetingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/">展开全文 >></a>
-    </p>
+
     
+    
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a> -->
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://programmer-zeng.github.io/2021/02/20/Aplayer%E6%90%AD%E9%85%8DMetingjs%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/" alt="微信分享二维码"> -->
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
 
     
     <div class="clearfix"></div>
   </div>
   </div>
 </article>
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2021/02/20/test/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">test</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -574,153 +715,14 @@
 
 
 
-  
-    <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/02/20/test/" target="_blank">test</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/02/20/test/" class="archive-article-date">
-        <time datetime="2021-02-20T03:48:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-02-20</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p><strong>Maven是一个快速构建工具。</strong></p>
-<p>Maven 翻译为”专家”、“内行”，是 Apache 下的一个纯 Java 开发的开源项目。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。</p>
-<p>Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理。</p>
-<p>Maven 也可被用于构建和管理各种项目，例如 C#，Ruby，Scala 和其他语言编写的项目。Maven 曾是 Jakarta 项目的子项目，现为由 Apache 软件基金会主持的独立 Apache 项目。</p>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/02/20/test/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
 
 
 
 
-  
-    <article id="post-Maven快速入门&amp;在IDEA中配置与使用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h1 id="01-什么是Maven"><a href="#01-什么是Maven" class="headerlink" title="01.什么是Maven?"></a>01.什么是Maven?</h1><p><strong>Maven是一个快速构建工具。</strong></p>
-<p>Maven 翻译为”专家”、“内行”，是 Apache 下的一个纯 Java 开发的开源项目。基于项目对象模型（缩写：POM）概念，Maven利用一个中央信息片断能管理一个项目的构建、报告和文档等步骤。</p>
-<p>Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理。</p>
-<p>Maven 也可被用于构建和管理各种项目，例如 C#，Ruby，Scala 和其他语言编写的项目。Maven 曾是 Jakarta 项目的子项目，现为由 Apache 软件基金会主持的独立 Apache 项目。</p>
-    
-    <a class="article-more-a" href="/2021/02/20/Maven%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8&%E5%9C%A8IDEA%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/02/20/Maven%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8&%E5%9C%A8IDEA%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
 
 
 
 
-  
-  
 
 
           </div>
@@ -780,8 +782,8 @@ setInterval("createtime()",250);
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
