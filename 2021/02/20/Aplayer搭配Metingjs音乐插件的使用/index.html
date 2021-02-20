@@ -148,7 +148,13 @@
 			</meting-js>	
 		</div>
 	
-          
+		<div>
+			{% if theme.diy_time.clock %}
+		  <!-- canvas粒子时钟 -->
+		  {% include 'clock.js' %}
+		{% endif %}
+
+		</div>
        
 
 	</header>		
@@ -712,13 +718,7 @@
         
         
     </div>
-    <div>
-	        {% if theme.diy_time.clock %}
-          <!-- canvas����ʱ�� -->
-          {% include 'clock.js' %}
-        {% endif %}
-
-    </div>
+    
 </aside>
 
 
