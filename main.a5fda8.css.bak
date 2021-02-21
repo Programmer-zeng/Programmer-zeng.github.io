@@ -1966,22 +1966,15 @@ pre .css~* .id,pre .id {
 	transition: all .2s ease-in
 }
 */
- .article {
--    margin:30px;
--    position:relative;
--    border:1px solid #ddd;
--    border-top:1px solid #fff;
--    border-bottom:1px solid #fff;
--    background:#fff;
--    /* background: rgba(255,255,255,.5); */
--    transition:all .2s ease-in
-+    margin: 30px;^M
-+    border: 1px solid #ddd;^M
-+    border-top: 1px solid #fff;^M
-+    border-bottom: 1px solid #fff;^M
-+    background: rgba(255,255,255,.5);^M
-+    transition: all .2s ease-in^M
- }
+.article {
+    margin: 30px;
+    border: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: rgba(255,255,255,.5);
+    transition: all .2s ease-in
+}
+
 
 
 .article img {
