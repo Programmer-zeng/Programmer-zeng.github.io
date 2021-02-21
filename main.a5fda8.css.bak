@@ -156,7 +156,9 @@ body {
 	font-family: Helvetica Neue,Helvetica,STHeiTi,Arial,sans-serif;
 	line-height: 1.5;
 	color: #333;
-	background-color: initial;
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+	url('/img/image2.jpg') no-repeat 0% 0%/ cover;
+	/*background-color: initial;*/
 	min-height: 100%
 }
 

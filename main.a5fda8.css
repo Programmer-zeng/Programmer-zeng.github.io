@@ -157,7 +157,7 @@ body {
 	line-height: 1.5;
 	color: #333;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-	url('https://desk-fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/00/ChMkJlbKw6KIXhXnAA4L-_oxRzUAALG6QBUSg8ADgwT181.jpg') no-repeat 0% 0%/ cover;
+	url('/img/image2.jpg') no-repeat 0% 0%/ cover;
 	/*background-color: initial;*/
 	min-height: 100%
 }
@@ -620,7 +620,7 @@ body,button,input,select,textarea {
 }
 
 body {
-	background: rgba(255,255,255,.5),rgba(255,255,255,.5),url(https://oss.yansheng.xyz/wallpaper/qinshimingyue.jpg) no-repeat
+	background: rgba(255,255,255,.5),rgba(255,255,255,.5),url('/img/image1.jpeg') no-repeat
 }
 
 #container,body,html {
