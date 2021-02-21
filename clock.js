@@ -6,7 +6,7 @@ var canvas = document.getElementById('canvas');
 if(canvas.getContext){
     var cxt = canvas.getContext('2d');
     canvas.height = 100;
-    canvas.width = 700;
+    canvas.width = 400;
     function renderDigit(index,num){
         var R = canvas.height/20-1;
         for(var i = 0; i < digit[num].length; i++){
