@@ -1,6 +1,3 @@
-<div style="">
-  <canvas id="canvas" style="width:400px;">��ǰ�������֧��canvas������������������</canvas>
-</div>
 
 
 <script src="http://files.cnblogs.com/files/xiaohuochai/digit.js"></script>    
