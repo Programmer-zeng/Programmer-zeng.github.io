@@ -668,7 +668,9 @@ body {
 }
 
 .left-col {
-	background: #fff;
+	/*background: #fff;*/
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg') no-repeat 0% 20%/ cover;
 	width: 300px;
 	position: fixed;
 	opacity: 1;
@@ -705,16 +707,19 @@ body {
 }
 
 .left-col #header a {
-	color: #696969
+	/*color: #696969*/
+	color:#673ab7^M
 }
 
 .left-col #header a:hover {
-	color: #b0a0aa
+	/*color: #b0a0aa*/
+	color: #03A9F4^M
 }
 
 .left-col #header .header-subtitle {
 	text-align: center;
-	color: #999;
+	/*color: #999;*/
+	color:#673ab7;
 	font-size: 14px;
 	line-height: 25px;
 	overflow: hidden;
