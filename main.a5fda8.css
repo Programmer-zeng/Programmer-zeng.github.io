@@ -676,7 +676,7 @@ body {
 .left-col {
 	/*background: #fff;*/
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url('http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg') no-repeat 0% 20%/ cover;
+    url('/img/image1.jpeg') no-repeat 0% 20%/ cover;
 	width: 300px;
 	position: fixed;
 	opacity: 1;
