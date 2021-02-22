@@ -1280,4 +1280,18 @@ if(canvas.getContext){
 </body>
 
 </html>
-
+<script>
+	var curIndex = 0;
+	var timeInterval = 3000;
+	var imgArr = ["/img/image2.jpg","/img/image1.jpeg"];
+	function changeImg(){
+		var obj = document.getElementById("");
+		if(curIndex == imgArr.length-1){
+			curIndex = 0;
+		}else{
+			curIndex++;
+		}
+		obj.style.backgroundImage= "URL("imgArr[curIndex]+")"; 
+	}
+	setInterval(changeImg, timeInterval);
+<script>
