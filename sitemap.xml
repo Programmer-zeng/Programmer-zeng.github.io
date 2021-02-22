@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://programmer-zeng.github.io/2021/02/20/hexo-next-%E2%80%94%E2%80%94%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80%E3%80%81%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/</loc>
+    
+    <lastmod>2021-02-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://programmer-zeng.github.io/category/index.html</loc>
     
     <lastmod>2021-02-22</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://programmer-zeng.github.io/archives/index.html</loc>
     
     <lastmod>2021-02-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://programmer-zeng.github.io/2021/02/20/hexo-next-%E2%80%94%E2%80%94%E6%AF%8F%E6%97%A5%E4%B8%80%E8%A8%80%E3%80%81%E4%BB%8A%E6%97%A5%E8%AF%97%E8%AF%8D/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
     
   </url>
   
@@ -67,5 +67,12 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://programmer-zeng.github.io/categories/hexo%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2021-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
