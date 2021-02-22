@@ -162,6 +162,9 @@ body {
 	min-height: 100%;
 	cursor:url('/img/cursor.ico'), default;
 }
+a {
+	cursor:url('/img/cursor.ico'), default;
+}
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block
