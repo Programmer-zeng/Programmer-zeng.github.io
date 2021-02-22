@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://programmer-zeng.github.io/category/index.html</loc>
+    
+    <lastmod>2021-02-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://programmer-zeng.github.io/archives/index.html</loc>
     
     <lastmod>2021-02-21</lastmod>
