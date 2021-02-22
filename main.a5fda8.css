@@ -157,7 +157,7 @@ body {
 	line-height: 1.5;
 	color: #333;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-	url('http://api.nmb.show/xiaojiejie2.php') no-repeat 0% 0%/ cover;
+	url('http://api.btstu.cn/sjbz/?lx=meizi') no-repeat 0% 0%/ cover;
 	/*background-color: initial;*/
 	min-height: 100%;
 	cursor:url('/img/cursor.ico'), default;
